@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Glider.js-master/glider.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oxanium:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>DBM Site</title>
+</head>
+
+<body>
+    <script src="./Glider.js-master/glider.js"></script>
+    <script src="script.js"></script>
+    
+    <header id="home">
+        <img class="logo" src="./image/DBM Marca colorida.jpg">
+        <ul>
+            <a href="#home"><li class="menu">Home</li></a>
+            <a href="#projeto"><li class="menu">Projetos</li></a>
+            <a href="#quemsomos"><li class="menu">Quem somos</li></a>
+            <a href="#contato"><li class="menu">Contato</li></a>
+        </ul>
+
+        <ul>
+            <a href="https://www.instagram.com/dbm_nano/" target="_blank"><li class="redes"><img class="img-redes" src="./image/icons8-instagram-40.png" alt="ícone do instagram"></li></a>
+            <a href="#" target="_blank"><li class="redes"><img class="img-redes" src="./image/icons8-facebook-circled-40.png" alt="ícone do facebook"></li></a>
+            <a href="https://wa.me/55479669-3836" target="_blank"><li class="redes"><img class="img-redes" src="./image/icons8-whatsapp-40.png" alt="ícone do whatsapp"></li></a>
+        </ul>
+
+    </header>
+
+    <main id="home">
+      <div class="container">
+          <div class="glider-contain">
+            <div class="glider">
+              <div><img src="./image/estudo.jpg" alt="artigo 1"  width="300px" height="300px"><h3>1</h3></div>
+              <div><img src="./image/estudo.jpg" alt="artigo 2" width="300px" height="300px"><h3>2</h3></div>
+              <div><img src="./image/estudo.jpg" alt="artigo 3" width="300px" height="300px"><h3>3</h3></div>
+              <div><img src="./image/estudo.jpg" alt="artigo 4" width="300px" height="300px"><h3>4</h3></div>
+            </div>
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        
+      
+
+        <section id="projeto">
+          <div class="titulo1">
+            <h1>PROJETOS</h1>
+            <div class="linha1"></div>
+          </div>
+        
+          <div class="proj-container">
+            <div class="proj1">
+              <img class="proj-img" src="./image/1.png" alt="imagem da maquina mac" width="450px" height="450px">
+              <h3 class="proj-text">Eletroafiação em Mac</h3>
+              <button class="button-proj"><a href="./proj1.html" target="_blank">Conheça</a></button>
+            </div>
+
+            <div class="proj2">
+              <img class="proj-img" src="./image/2.png" alt="imagem da membrana" width="450px" height="450px">
+              <h3 class="proj-text">Membrana Eletrofiada</h3>
+              <button class="button-proj"><a href="proj2.html" target=_blank>Conheça</a></button>
+            </div>
+          </div>
+        </section>
+
+        <section id="quemsomos">
+
+          <div class="titulo2">
+            <h1>QUEM SOMOS</h1>
+            <div class="linha2"></div>
+          </div>
+
+          <div class="parte1">
+            <img class="somos-img" src="./image/DBM Marca colorida.jpg" width="400px" height="350px">
+            <p class="somos-text">A empresa DBM nasceu da inquietação de transpor os muros acadêmicos para o mundo empresarial e gerar valor econômico nos seus produtos.<br>
+
+              <br>Atua na fabricação e comercialização de máquinas de eletrofiação bem como de membranas eletrofiadas com fibras nanométricas para fins médicos, odontológicos e industriais.<br>
+              
+              <br>A empresa tem como principais diferenciais: ser uma empresa composta por mestres e doutores com <i>"know how"</i> em toda cadeia produtiva, fabricar máquinas 
+              customizadas de acordo com as necessidades do cliente, desenvolver pesquisas em produtos eletrofiados e disponibilizá-los ao mercado.</p>
+          </div>
+
+          <div class="parte2">
+            <p class="somos-text2">A DBM iniciou com o desenvolvimento de um equipamento de Eletrofiação de bancada para testes rápidos com controle de morfologia por meio de microscópio 
+              e com bomba de infusão acoplada.<br><br> Criamos uma Máquina de eletrofiação com 3 eixos, hermética com uma bomba de infusão acoplada. Desenvolveu o processo e acompanhamento dos 
+              parâmetros para o desenvolvimento de protótipos (lote piloto) da membrana tipo matriz dérmica para queimadura, epidermólise bolhosa e escaras.<br>
+              <br>Detém o conhecimento total da cadeia produtiva, desde a síntese do polímero, fabricação da máquina e produção da membrana eletrofiada.</p>
+              <img class="somos-img2" src="./image/DBM Marca colorida.jpg" width="400px" height="350px">
+          </div>
+
+        </section>
+
+        <section id="contato">
+          <div class="titulo3">
+            <h1>CONTATO</h1>
+            <div class="linha3"></div>
+          </div>
+        
+          <div class="content">
+            <form class="formulario" method="post">
+
+              Nome da Empresa<input class="inp" type="name">
+              E-mail<input class="inp" type="email">
+              Telefone<input class="inp" type="tel">
+              Assunto<input class="assunto" type="text">
+              <button class="button-send">Enviar</button>
+
+            </form>
+
+          <div class="endereço">
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.314591619376!2d-48.
+            86530958454651!3d-26.316310883388027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb1bb82287c
+            4b%3A0x160f27cc1e51648c!2sR.%20Xavantes%2C%2054%20-%20Atiradores%2C%20Joinville%20-%20SC%2C%2089203-210!5e0!3m2!1spt
+            -BR!2sbr!4v1676909504574!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="maps-text"> Rua XAVANTES. Nº: 54 Atiradores, Joinville - SC, 89203-900 </p> </div>  
+
+        </section>
+
+        <section class="redesfoot" >
+            <a href="https://www.instagram.com/dbm_nano/" target="_blank"><img class="insta" src="./image/icons8-instagram-40.png" alt="ícone do instagram"></a></li>
+            <p class="insta-text" style="text-align: center;"><a href="https://www.instagram.com/dbm_nano/" target="_blank">instagram.com/dbm_nano</a></p>
+
+
+
+            <li><a href="#" target="_blank"><img class="face" src="./image/icons8-facebook-circled-40.png" alt="ícone do facebook"></a></li>
+            <p class="face-text"><a>facebook.com/dbm_nano</a></p>
+
+
+
+            <li><a href="https://wa.me/55479669-3836" target="_blank"><img class="whats" src="./image/icons8-whatsapp-40.png" alt="ícone do whatsapp"></a></li>
+            <p class="whats-text"><a href="https://wa.me/55479669-3836" target="_blank">https://wa.me/55479669-3836</a></p> </div>
+ 
+        </section>
+      </div>
+    </main>
+
+    <footer> © 2023 DBM MÁQUINAS E MEMBRANAS. <a target="_blank" href="https://github.com/MatheusAGx"> By <b>Matheus AG.</b>  </a>
+      <small><a target="_blank" href="https://icons8.com/icon/32292/instagram"></a> Icons by <a target="_blank" href="https://icons8.com">Icons8</a>. </small>
+      
+    </footer>
+</body>
+
+</html>
