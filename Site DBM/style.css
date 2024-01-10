@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Nueu, Helvetica;
+    src: url(./Helvetica\ Neue/);
+    font-size: 1em;
+}
+
+/*
+.navbar {
+    width: 75%;
+    height: 80px;
+    padding: 15px;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color:aliceblue;
+    border: 1px solid black;
+}
+
+*/ 
+
+.logo {
+    width: 138px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+
+ul {
+    display: flex;
+    gap: 50px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
+   /* text-shadow: 0px 2px 3px #000;*/
+}
+
+a {
+    color: inherit; 
+} 
+
+/*
+li {
+    margin: 10px;
+    text-shadow: 0px 3px 5px #000;
+
+} 
+*/
+
+/* ----------- menu ----------- */
+/* 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+*/
+/* ---------------------projetos------------------------- */
+/*
+
+section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+} 
+
+.linha1 {
+    position: relative;
+    width: 380px;
+    height: 20px;
+    bottom: 35px;
+    right: 15px;
+    background: #009ba0b9;
+    box-shadow: 0px 3px 5px #009ba0bb;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 64px;
+    color: #000;
+    z-index: 1;
+}
+
+.titulo1 {
+    width: 90%; 
+    margin:auto;
+    text-shadow: 0px 1px 3px #000000ab;
+}
+
+.proj-container {
+    width: 100%; 
+    height: 580px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #009ba0bb;
+    box-shadow: 1px 2px 5px 0px black;
+}
+
+.proj-img {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px black;
+}
+
+.proj-text {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.proj1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.proj2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button-proj {
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 5px #009ba0bb;
+    border-radius: 10px;
+    color: white;
+    border-color: #009ba0bb;
+    background-color: #009ba0bb;;
+    font-family: 'Oxanium', cursive;
+    font-size: 1em; 
+}
+
+*/
+/* -----------------quem somos ------------------ */
+/*
+
+#quemsomos {
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.titulo2 {
+    width: 90%; 
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-shadow: 0px 1px 3px #000000ab;
+}
+
+.linha2{
+    position: relative;
+    width: 480px;
+    height: 20px;
+    bottom: 35px;
+    right: 15px;
+    background: #009ba0bb;;
+    box-shadow: 0px 3px 5px #009ba0bb;;
+}
+
+
+.parte1 {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.somos-text {
+    width: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2.5 em;
+}
+
+.parte2 {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction:row ;
+    padding: 10px;
+}
+
+
+.somos-text2 {
+    width: 50%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5 em;
+    text-align: justify;
+}
+
+*/
+/* -------------contato---------------- */
+/*
+
+.titulo3 {
+    width: 90%; 
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-shadow: 0px 1px 3px #000000ab;
+}
+
+.linha3{
+    position: relative;
+    width: 340px;
+    height: 20px;
+    bottom: 35px;
+    right: 15px;
+    background: #009ba0bb;;
+    box-shadow: 0px 3px 5px #009ba0bb;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+form {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.button-send {
+    padding: 5px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.assunto {
+    height: 300px;
+    }
+
+.inp {
+    height: 30px;
+}
+
+.maps-text {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.redesfoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px
+}
+
+footer {
+    background-color: #009ba0bb;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    box-shadow: 0px 3px 5px black;
+}
+
+*/
+/* -------------projeto 1---------------- */
+/*
+
+.titulo-text, .titulo-text2 {
+    height: 150px;
+    margin-top: 30px;
+    background-color: #009ba0bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 42px;
+    box-shadow: 0px 3px 5px black;
+}
+
+.container-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.texto-eletro {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.image-eletro {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+*/
+/* --------------- projeto 2  ------------ */
+/*
+
+.texto-membrana-part1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2.5 em;
+}
+
+.texto-membrana-part2 {
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    line-height: 2.5 em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-text2 {
+    display:flex ;
+    justify-content: space-around;
+}
+
+.membrana-img {
+    width: 50%;
+    margin: auto;
+    float: right;
+    padding: 10px;
+}
+*/
